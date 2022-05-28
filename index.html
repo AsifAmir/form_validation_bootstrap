@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!--Meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Bootstrap demo">
+    <meta name="description" content="Personal portfolio">
+    <meta name="keywords" content="html, html tutorial, bootstrap, bootstrap cdn, bootstrap tutorial">
+    <meta name="robots" content="index, follow">
+    <meta name="revisit-after" content="5 days days">
+    <meta name="author" content="Asif Amir">
+
+
+    <!-- CSS links -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>Bootstrap demo</title>
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <form class="row g-3 needs-validation" novalidate>
+          <!-- first name -->
+          <div class="col-md-6">
+            <label for="f_name" class="form-label">First name</label>
+            <input type="text" class="form-control f_name" id="f_name" name="f_name" placeholder="Enter Your First Name" required>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+            <div class="invalid-feedback">
+              Enter Your First Name.
+            </div>
+          </div>
+          <!-- last name -->
+          <div class="col-md-6">
+            <label for="l_name" class="form-label">Last name</label>
+            <input type="text" class="form-control l_name" id="l_name" name="l_name" placeholder="Enter Your Last Name" required>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+            <div class="invalid-feedback">
+              Enter Your Last Name.
+            </div>
+          </div>
+          <!-- email -->
+          <div class="col-md-6">
+            <label for="email" class="form-label">email</label>
+            <input type="email" class="form-control email" id="email" name="email" placeholder="Enter Your Email Address" required>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+            <div class="invalid-feedback">
+              Enter Your Email Address.
+            </div>
+          </div>
+          <!-- city -->
+          <div class="col-md-6">
+            <label for="city" class="form-label">City</label>
+            <input type="text" class="form-control city" id="city" name="city" value="Dhaka" placeholder="Enter a valid city." required>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+            <div class="invalid-feedback">
+              Enter a valid city.
+            </div>
+          </div>
+          <!-- checkbox -->
+          <div class="col-12">
+            <div class="form-check">
+              <input class="form-check-input check_box" type="checkbox" id="check_box" name="check_box" required checked>
+              <label class="form-check-label" for="check_box">
+                Agree to terms and conditions
+              </label>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+              <div class="invalid-feedback">
+                You must agree before submitting.
+              </div>
+            </div>
+          </div>
+          <!-- button -->
+          <div class="col-12">
+            <button class="btn btn-danger" type="submit">Submit form</button>
+          </div>
+
+        </form>
+      </div>
+    </section>
+    
+    <!-- JS links -->
+    <script src="js/pop.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    
+  </body>
+</html>

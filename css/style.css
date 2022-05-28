@@ -1,0 +1,31 @@
+.box{
+	height: 100px;
+	background-color: #f2c101;
+	color: white;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.box2{
+	width: 200px;
+	height: 200px;
+	background-color: #dddddd;
+	display: inline-block;
+}
+.box3{
+	margin: 0 auto;
+	width: 80%;
+	height: 200px;
+	background-color: #dddddd;
+}
+.box4{
+	background-color: #dddddd;
+	border: 5px solid lime;
+}
+.mh-100{
+	min-height: 100px;
+	background-color: pink;
+}
+.mh-200{
+	min-height: 200px;
+	background-color: pink;
+}
